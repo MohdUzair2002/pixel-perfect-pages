@@ -6,7 +6,7 @@ import { Container } from "@/components/site/Container";
 import { BookCard } from "@/components/site/BookCard";
 import { browseBooks } from "@/lib/site-data";
 
-export const Route = createFileRoute("/books")({
+export const Route = createFileRoute("/books/")({
   head: () => ({
     meta: [
       { title: "Browse Books — KitabGhar" },
